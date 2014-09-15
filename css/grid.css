@@ -1,0 +1,45 @@
+/* Grid Styles */
+.wrapper{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.row:after{
+	content: ' ';
+	clear: both;
+	display: block;
+}
+[class*="col-span"] {
+	float: left;
+	box-sizing: border-box;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.sm-col-span-1{
+	width: 25%;
+}
+.sm-col-span-2{
+	width: 50%;
+}
+.sm-col-span-3{
+	width: 75%;
+}
+.sm-col-span-4{
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.lg-col-span-1{
+	width: 25%;
+	}
+	.lg-col-span-2{
+		width: 50%;
+	}
+	.lg-col-span-3{
+		width: 75%;
+	}
+	.lg-col-span-4{
+		width: 100%;
+	}
+}
